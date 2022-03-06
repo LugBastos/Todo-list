@@ -88,9 +88,6 @@ function App(props) {
     />
   ));
 
-  // const tasksNoun = taskList.length !== 1 ? 'tasks' : 'task';
-  // const headignText = `${taskList.length} ${tasksNoun} pendentes`;
-
   return (
     <div className="todoapp stack-large">
       <h1>To Do List</h1>
@@ -98,7 +95,6 @@ function App(props) {
       <div className="filters btn-group stack-exception">
         {filterList}
       </div>
-      {/* <h2 id="list-heading">{headignText}</h2> */}
       <ul
         className="todo-list stack-large stack-exception"
         aria-labelledby="list-heading"
